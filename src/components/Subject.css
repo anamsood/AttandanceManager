@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.item {
+  display: flex;
+  width: 70vh;
+  height: 17vh;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 5px;
+}
+#subject {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#percentage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+#percentage h5 {
+  font-size: 10px;
+}
+#percentage h2 {
+  border: 1px black dotted;
+  border-radius: 100%;
+  /* margin-left: 50px; */
+  padding: 10px;
+}
+.subj-detail p {
+  margin: 5px 0px;
+}
